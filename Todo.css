@@ -1,4 +1,8 @@
-/* Styling for the container */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .container {
   max-width: 600px;
   margin: 50px auto;
@@ -8,15 +12,11 @@
   border-radius: 8px;
   font-family: Arial, sans-serif;
 }
-
-/* Header styling */
 h1 {
   text-align: center;
   color: #333;
   margin-bottom: 20px;
 }
-
-/* Styling for form elements */
 form {
   display: flex;
   flex-direction: column;
@@ -44,8 +44,6 @@ button {
 button:hover {
   background-color: #45a049;
 }
-
-/* Styling for the todo list */
 #todoList {
   list-style: none;
   padding: 0;
@@ -61,8 +59,6 @@ li {
   padding: 10px;
   border-radius: 4px;
 }
-
-/* Delete button styling */
 li button {
   background-color: #f44336;
   padding: 5px 10px;
